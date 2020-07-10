@@ -29,8 +29,9 @@ body {
     -webkit-filter: blur(2px);
 }
 
-.header .text {
-    font-size: 2.2rem;
+.text {
+    font-size: 1.6rem;
+    font-style: oblique;
 }
 
 .content {
