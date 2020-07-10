@@ -65,6 +65,16 @@ body {
      color: rgb(95, 28, 95);
  }
 
+ #hobbies {
+     font-weight: 3px;
+     font-size: 1.6rem;
+     color: rgb(0, 0, 0);
+     background-image: url(/hobbies2.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
  .content .text {
     line-height: 1.7;
     margin-top: 1rem;
