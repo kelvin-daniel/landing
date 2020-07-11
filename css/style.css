@@ -132,6 +132,14 @@ footer p {
         height: 50vh;
     }
 
+    a {
+        color: rgb(20, 133, 95);
+    }
+   
+    a:hover {
+        color: chartreuse;
+    }
+
     .content {
         top: 5%;
         margin-top: 5px;
