@@ -63,6 +63,10 @@ body {
      color: rgb(20, 133, 95);
  }
 
+ a:hover {
+     color: chartreuse;
+ }
+
  #name {
      font-family: 'Trebuchet MS';
      font-size: 2.3rem;
