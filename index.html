@@ -1,101 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta http-equiv="X-UA-Compatible" content="ie-edge"/>
+    <meta name="description" content="Made For Gamers"/>
+	<meta name="keywords" content="app, seo, web positioning"/>
+  	<meta name="author" content="Yulian Brito"/>
+    <title>Responsive Website #5</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  </head>
+  <body class="body" id="body-soomth" >
+ 
+   <!-- Navigation -->
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="https://kit.fontawesome.com/d37d118554.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/style.css">
-        <title>Kelvin Kiplagat</title>
-    </head>
-
-    <body>
-        <header class="showcase">
-            <div class="background"></div>
-            <div class="content">
-                <img src="lgo.jpg" class="logo" alt="Kelvin">
-                <div class="title">
-                    <strong><span id="name" >Kelvin Kiplagat</span> <hr>Software Developer</strong>
-                </div>
-                <div class="text">
-                    I am Fluid and Dynamic.<i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
-                    <span class="sr-only"></span>
-                </div>
-            </div>
+    <section class="main-container" id="home">
+      <div class="container">
+        <header class="header">
+          <div id="nav-bar">
+            <input class="header__checkbox" type="checkbox"/>
+            <span class="nav-bar__spinner"></span>
+            <span class="nav-bar__spinner"></span>
+            <span class="nav-bar__spinner"></span> 
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="#home">Home</a></li>
+              <li class="menu__item"><a class="menu__link" href="#products">Products</a></li>
+              <li class="menu__item"><a class="menu__link" href="#gaming">Gaming</a></li>
+              <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
+            </ul> 
+          </div> 
+          <div class="logo"> 
+            <img class="logo__main" src="https://i.ibb.co/fCTjF9w/img-01.png"/>	
+          </div>
         </header>
-        <!-- services -->
-        <section class="services">
-            <div class="container grid-3">
-                <div> 
-                    <i class="fa fa-tasks" aria-hidden="true"></i>
-                      <h3>My Hello World Webpage</h3>   
-                      <p>This is the very first <a href="https://kelvin-daniel.github.io/hello/">website</a> I ever created. This webpage is written in html and css</p>
-                    </i>
-                </div>
-                <div>
-                    <i class="fa fa-tasks" aria-hidden="true"></i>
-                      <h3>Blog Post</h3>   
-                      <p>This is a blog I created to share my experience when creating a work portfolio at moringa. It being one of the best things I have ever Done. I'm so proud of my self right about now! Check out my blog <a href="https://moringaschool.com/programs/software-development/online/?utm_source=google&utm_medium=cpc&utm_campaign=august_class&utm_term=brand_campaigns&gclid=Cj0KCQjwo6D4BRDgARIsAA6uN193eTHObuEW16Anjw75jdcFdMpYv4QVh6gfB1jqmHinlAhBbVYVw40aAs67EALw_wcB">moringa school</a>. I would reccommend anyone here not because I want to rather because I need to. Have a look at my <a href="https://kelvin-daniel.github.io/firrst-project/">here.</a> This website is written in html and css</p>
-                    </i>
-                </div>
-                <div>
-                    <i class="fa fa-tasks" aria-hidden="true"></i>
-                      <h3>Jada</h3>   
-                      <p>This website is about my pet, or rather, my sisters pet to be honest. So I let her write something about it <a href="https://kelvin-daniel.github.io/jada/">here.</a>. It is written in Html and css.</p>
-                    </i>
-                </div>
-            </div>
-        </section>
 
-        <!-- about -->
-        <section id="about" class="about">
-            <div class="container">
-                <div class="grid-2">
-                    <div class="center">
-                        <i class="fas fa-laptop-code fa-10x"></i>
-                    </div>
-                    <div>
-                        <h3>About Me</h3>
-                        <h4>Education</h4>
-                        <p> I first saw how a chalkboard looked like in a school called Moi Primary School- Kabarak. From there I jumped from one school to another, 7 schools to be specific, beefore completing my KCPE in a school in Kapsabet called St. Mathews. From there I moved on to High School at Kabarak. Im currently at moringa School studying to become a software developer.</p>
-                        <h4>Job?</h4>
-                        <p>I am a freelance web designer on a mission to create some of the most out standing websites meant to lure in customers to your Production. Hope I get to work with you one day.</p>
-                        <h4>Why I Chose Moringa School.</h4>
-                        <p>I first heard about <a href="https://moringaschool.com/programs/software-development/online/?utm_source=google&utm_medium=cpc&utm_campaign=august_class&utm_term=brand_campaigns&gclid=Cj0KCQjwo6D4BRDgARIsAA6uN193eTHObuEW16Anjw75jdcFdMpYv4QVh6gfB1jqmHinlAhBbVYVw40aAs67EALw_wcB">Moringa School</a> while I was still in high school and got interested. when I completed high school, a friend of mine mentioned it again and I thought I should join. Best choice ever!</p>
-                        <h4>My Hobbies, Skills and Interests.</h4>
-                            <div id="hobbies" class="container grid-3">
-                                <div>
-                                    <ol>
-                                        <h4 <i class="fa fa-child" aria-hidden="true"></i>Hobbies</h4>
-                                        <li>Coding</li>
-                                        <li>Cooking</li>
-                                        <li>Crafting</li>
-                                    </ol>
-                                </div>
-                                <div>
-                                    <ul>
-                                        <h4 <i class="fa fa-child" aria-hidden="true"></i>Skills</h4>
-                                        <li>Drawinng</li>
-                                        <li>Painting</li>
-                                        <li>Music Production</li>
-                                        </ul>
-                                </div>
-                                <div>
-                                    <ol>
-                                        <h4 <i class="fa fa-child" aria-hidden="true">Interests</i></h4>
-                                        <li>Cars</li>
-                                        <li>Artificial Intelligence</li>
-                                        <li>Stock Trading</li>
-                                    </ol>
-                                </div>
-                            </div>
-                </div>
-            </div>
-        </section>
+   <!-- Masthead -->
 
-        <footer class="center">
-            <p>kelvin Kiplagat &copy; 2020</p>
-        </footer>
-    </body> 
+        <div class="main-title">         
+          <h1 class="main-title__h1">Made For Gamers</h1>
+          <p class="main-title__paragraph">
+            Every landing page needs a small description after the big bold title, that's why we added this 
+          </p>
+          <div class="button">Start to play</div>
+        </div>
+      </div> 
+    </section>
+    <div class="main-title main-title--2">         
+      <h1 class="main-title__h1  main-title__h1--2">Made For Gamers</h1>
+      <p class="main-title__paragraph main-title__paragraph--2">
+        Every landing page needs a small description after the big bold title, that's why we added this 
+      </p>
+      <div class="button button--2">Start to play</div>
+    </div>
+
+   <!-- Products -->
+
+    <div class="container-title" id="products">
+      <div class="products-title">
+        <h2 class="products-title__h2">Our Products</h2>
+      </div>
+    </div>
+
+    <div class="container-products">
+      <div class="products">
+        <div class="new">
+          <p class="new__paragraph">Alienware Set</p>
+          <p class="new__paragraph new__paragraph--2">New</p>
+        <div class="col-main">
+          <img class="col-main__img-1" src="https://i.ibb.co/fH221Vy/img-03.png"/> 
+        </div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div> 
+          </div>   
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="new">
+          <p class="new__paragraph">Case</p>
+          <p class="new__paragraph new__paragraph--2">New</p>
+        <div class="col-main">
+          <img class="col-main__img-1" src="https://i.ibb.co/HDhN6M5/img-04.png"/> 
+        </div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div> 
+          </div>   
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="new">
+          <p class="new__paragraph">keyboard</p>
+          <p class="new__paragraph new__paragraph--2">New</p>
+        <div class="col-main">
+          <img class="col-main__img-1" src="https://i.ibb.co/9wq0zRY/img-05.png"/> 
+        </div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div> 
+          </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="container-products">
+      <div class="products">
+        <div class="new">
+          <p class="new__paragraph">Mouse</p>
+          <p class="new__paragraph new__paragraph--2">New</p>
+        <div class="col-main">
+          <img class="col-main__img-1" src="https://i.ibb.co/Dfxg1pB/img-06.png"/> 
+        </div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div> 
+          </div>   
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="new">
+          <p class="new__paragraph">Monitor</p>
+          <p class="new__paragraph new__paragraph--2">New</p>
+        <div class="col-main">
+          <img class="col-main__img-1" src="https://i.ibb.co/MnCqnTB/img-07.png"/> 
+        </div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div> 
+          </div>   
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="new">
+          <p class="new__paragraph">Notebook</p>
+          <p class="new__paragraph new__paragraph--2">New</p>
+        <div class="col-main">
+          <img class="col-main__img-1" src="https://i.ibb.co/d5zn25B/img-08.png"/> 
+        </div>
+          <div class="go-corner" href="#">
+            <div class="go-arrow">
+              →
+            </div> 
+          </div>   
+        </div>
+      </div>
+    </div>
+
+   <!-- Gaming -->
+
+    <div class="container-title" id="gaming">
+      <div class="products-title">
+        <h2 class="products-title__h2">Gaming</h2>
+      </div>
+    </div>
+
+    <div class="col-main col-main--logo">
+      <img class="col-main__img-1 col-main__img-1--logo" src="https://i.ibb.co/bmD4CZY/img-09.png"/>
+    </div> 
+    <div class="cards-container" id="tres">
+      <div class="card">
+        <div class="card-text">
+          <h6 class="card-title">today only</h6>
+          <h1 class="card-title card-title--h1">Alienware</h1>
+          <p class="card-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis id nam, fugiat aspernatur dolores soluta at similique illum debitis sequi ratione. Earum, voluptatem commodi.
+          </p>
+        </div>
+        <div class="card-img">
+          <img class="card-img__1" src="https://i.ibb.co/GMMbvPY/img-10.png"/>
+        </div>
+        <div class="container-buttons">
+          <div class="button button--card-1">Start to play</div>
+          <div class="button button--card-2">Start to play</div>
+        </div>
+      </div>
+
+      <div class="card card--2">
+        <div class="card-text">
+          <h6 class="card-title">today only</h6>
+          <h1 class="card-title card-title--h1">Alienware</h1>
+          <p class="card-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis id nam, fugiat aspernatur dolores soluta at similique illum debitis sequi ratione. Earum, voluptatem commodi.
+          </p>
+        </div>
+        <div class="card-img">
+          <div class="col-right-1"> 
+            <img class="card-img__1" src="https://i.ibb.co/yqJLmNQ/img-11.png"/>
+          </div> 
+        </div>
+        <div class="container-buttons"  id="contact">
+          <div class="button button--card-1">Start to play</div>
+          <div class="button button--card-2">Start to play</div>
+        </div>
+      </div>
+    </div>
+
+   <!-- Footer -->
+  
+    <footer class="footer">
+      <div class="section-footer">
+        <div class="container-footer">
+          <div class="logo-footer">
+            <div class="col-main col-main--logo-2">
+              <img class="col-main__img-1 col-main__img-1--logo-2" src="https://i.ibb.co/8r0p8FR/img-12.png"/>
+            </div>
+          </div> 
+          
+          <div class="info-footer">
+            <h3 class="footer__h3">Products</h3>
+            <ul class="ul-footer">
+              <li class="ul-footer__li"><a class="ul-footer__a"  href="#">Lorem ipsum dolor</a></li>
+              <li class="ul-footer__li"><a class="ul-footer__a"  href="#">Lorem ipsum dolor</a></li>
+              <li class="ul-footer__li"><a class="ul-footer__a"  href="#">Lorem ipsum dolor</a></li>
+              <li class="ul-footer__li"><a class="ul-footer__a"  href="#">Lorem ipsum dolor</a></li>
+            </ul>
+          </div>
+
+          <div class="info-footer">
+            <h3 class="footer__h3">Gaming</h3>
+            <ul class="ul-footer">
+              <li class="ul-footer__li"><a class="ul-footer__a" href="#">Lorem ipsum dolor</a></li>
+              <li class="ul-footer__li"><a class="ul-footer__a" href="#">Lorem ipsum dolor</a></li>
+              <li class="ul-footer__li"><a class="ul-footer__a"  href="#">Lorem ipsum dolor</a></li>
+              <li class="ul-footer__li"><a class="ul-footer__a" href="#">Lorem ipsum dolor</a></li>
+            </ul>
+          </div>
+
+          <div class="info-footer">
+            <h3 class="footer__h3">About Us</h3>
+            <ul class="ul-footer">
+              <li class="ul-footer__li"><a class="ul-footer__a" href="#">Lorem ipsum dolor</a></li>
+              <li class="ul-footer__li"><a class="ul-footer__a" href="#">Lorem ipsum dolor</a></li>
+              <li class="ul-footer__li"><a class="ul-footer__a"  href="#">Lorem ipsum dolor</a></li>
+              <li class="ul-footer__li"><a class="ul-footer__a" href="#">Lorem ipsum dolor</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer-2">
+      <div class="icons-social">
+        <ul class="list-social">
+          <li class="icons-social__item"><a class="icons-social__link" href="#"><i class="icons-social__i fab fa-codepen"></i></a></li>              
+          <li class="icons-social__item"><a class="icons-social__link" href="#"><i class="icons-social__i fab fa-instagram"></i></a></li>
+          <li class="icons-social__item"><a class="icons-social__link" href="#"><i class="icons-social__i fab fa-facebook"></i></a></li>
+          <li class="icons-social__item"><a class="icons-social__link" href="#"><i class="icons-social__i fab fa-twitter"></i></a></li>
+          <li class="icons-social__item"><a class="icons-social__link" href="#"><i class="icons-social__i fab fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+      <div class="container-footer-2">
+        <p>Develop by <a class="container-footer__link" href="https://codepen.io/Yulian_b/" target="_blank">Yulian Brito</a> | Copyright &copy; 2020</p>
+      </div>
+    </footer>  
+  </body>
 </html>
